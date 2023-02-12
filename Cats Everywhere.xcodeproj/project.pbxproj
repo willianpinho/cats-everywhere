@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF19F2052996DF5200FC6A5C /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19F2042996DF5200FC6A5C /* DetailViewModel.swift */; };
+		FF19F2072996DF5C00FC6A5C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19F2062996DF5C00FC6A5C /* DetailView.swift */; };
+		FF19F2092996DF6900FC6A5C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19F2082996DF6900FC6A5C /* DetailViewController.swift */; };
+		FF39CBC72995874800755820 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF39CBC62995874800755820 /* Alamofire */; };
+		FFA015C229997FC3004194A7 /* Cats_EverywhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA015C129997FC3004194A7 /* Cats_EverywhereTests.swift */; };
 		FFA254BC299566C600622D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254BB299566C600622D01 /* AppDelegate.swift */; };
 		FFA254BE299566C600622D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254BD299566C600622D01 /* SceneDelegate.swift */; };
-		FFA254C0299566C600622D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254BF299566C600622D01 /* ViewController.swift */; };
-		FFA254C3299566C600622D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA254C1299566C600622D01 /* Main.storyboard */; };
 		FFA254C5299566C900622D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA254C4299566C900622D01 /* Assets.xcassets */; };
 		FFA254C8299566C900622D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA254C6299566C900622D01 /* LaunchScreen.storyboard */; };
-		FFA254D3299566CA00622D01 /* Cats_EverywhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254D2299566CA00622D01 /* Cats_EverywhereTests.swift */; };
 		FFA254DD299566CA00622D01 /* Cats_EverywhereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254DC299566CA00622D01 /* Cats_EverywhereUITests.swift */; };
 		FFA254DF299566CA00622D01 /* Cats_EverywhereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254DE299566CA00622D01 /* Cats_EverywhereUITestsLaunchTests.swift */; };
+		FFA254EC2995671C00622D01 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254EB2995671C00622D01 /* AppCoordinator.swift */; };
+		FFA254EF2995679100622D01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FFA254EE2995679100622D01 /* SnapKit */; };
+		FFA254F2299567C500622D01 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FFA254F1299567C500622D01 /* Kingfisher */; };
+		FFA254F629956CFF00622D01 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254F529956CFF00622D01 /* SearchService.swift */; };
+		FFA254F829956DFF00622D01 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254F729956DFF00622D01 /* SearchResponse.swift */; };
+		FFA254FB299571C700622D01 /* RenderViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254FA299571C700622D01 /* RenderViewProtocol.swift */; };
+		FFA254FE299571FF00622D01 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA254FD299571FF00622D01 /* UIViewController+Extensions.swift */; };
+		FFA25502299572A600622D01 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA25501299572A600622D01 /* MainView.swift */; };
+		FFA25504299572B100622D01 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA25503299572B100622D01 /* MainViewModel.swift */; };
+		FFA25506299572BC00622D01 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA25505299572BC00622D01 /* MainViewController.swift */; };
+		FFA255082995764B00622D01 /* MainImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA255072995764B00622D01 /* MainImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FFA254CF299566CA00622D01 /* PBXContainerItemProxy */ = {
+		FFA015C329997FC3004194A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFA254B0299566C500622D01 /* Project object */;
 			proxyType = 1;
@@ -36,33 +49,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF19F2042996DF5200FC6A5C /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		FF19F2062996DF5C00FC6A5C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FF19F2082996DF6900FC6A5C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FFA015BF29997FC3004194A7 /* Cats EverywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cats EverywhereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA015C129997FC3004194A7 /* Cats_EverywhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_EverywhereTests.swift; sourceTree = "<group>"; };
 		FFA254B8299566C600622D01 /* Cats Everywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cats Everywhere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA254BB299566C600622D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFA254BD299566C600622D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFA254BF299566C600622D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFA254C2299566C600622D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFA254C4299566C900622D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFA254C7299566C900622D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFA254C9299566C900622D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFA254CE299566CA00622D01 /* Cats EverywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cats EverywhereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFA254D2299566CA00622D01 /* Cats_EverywhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_EverywhereTests.swift; sourceTree = "<group>"; };
 		FFA254D8299566CA00622D01 /* Cats EverywhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cats EverywhereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA254DC299566CA00622D01 /* Cats_EverywhereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_EverywhereUITests.swift; sourceTree = "<group>"; };
 		FFA254DE299566CA00622D01 /* Cats_EverywhereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_EverywhereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFA254EB2995671C00622D01 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FFA254F529956CFF00622D01 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		FFA254F729956DFF00622D01 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		FFA254FA299571C700622D01 /* RenderViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderViewProtocol.swift; sourceTree = "<group>"; };
+		FFA254FD299571FF00622D01 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		FFA25501299572A600622D01 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FFA25503299572B100622D01 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FFA25505299572BC00622D01 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FFA255072995764B00622D01 /* MainImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FFA254B5299566C600622D01 /* Frameworks */ = {
+		FFA015BC29997FC3004194A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFA254CB299566CA00622D01 /* Frameworks */ = {
+		FFA254B5299566C600622D01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF39CBC72995874800755820 /* Alamofire in Frameworks */,
+				FFA254F2299567C500622D01 /* Kingfisher in Frameworks */,
+				FFA254EF2995679100622D01 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +102,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF19F2032996DF4000FC6A5C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF19F2062996DF5C00FC6A5C /* DetailView.swift */,
+				FF19F2042996DF5200FC6A5C /* DetailViewModel.swift */,
+				FF19F2082996DF6900FC6A5C /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FFA015C029997FC3004194A7 /* Cats EverywhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA015C129997FC3004194A7 /* Cats_EverywhereTests.swift */,
+			);
+			path = "Cats EverywhereTests";
+			sourceTree = "<group>";
+		};
 		FFA254AF299566C500622D01 = {
 			isa = PBXGroup;
 			children = (
 				FFA254BA299566C600622D01 /* Cats Everywhere */,
-				FFA254D1299566CA00622D01 /* Cats EverywhereTests */,
 				FFA254DB299566CA00622D01 /* Cats EverywhereUITests */,
+				FFA015C029997FC3004194A7 /* Cats EverywhereTests */,
 				FFA254B9299566C600622D01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				FFA254B8299566C600622D01 /* Cats Everywhere.app */,
-				FFA254CE299566CA00622D01 /* Cats EverywhereTests.xctest */,
 				FFA254D8299566CA00622D01 /* Cats EverywhereUITests.xctest */,
+				FFA015BF29997FC3004194A7 /* Cats EverywhereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +143,19 @@
 		FFA254BA299566C600622D01 /* Cats Everywhere */ = {
 			isa = PBXGroup;
 			children = (
+				FFA254FF2995728400622D01 /* Scenes */,
+				FFA254F3299567F800622D01 /* Models */,
+				FFA254FC299571EA00622D01 /* Extensions */,
+				FFA254F4299567FE00622D01 /* Network */,
+				FFA254F9299571AF00622D01 /* Protocols */,
+				FFA254EB2995671C00622D01 /* AppCoordinator.swift */,
 				FFA254BB299566C600622D01 /* AppDelegate.swift */,
 				FFA254BD299566C600622D01 /* SceneDelegate.swift */,
-				FFA254BF299566C600622D01 /* ViewController.swift */,
-				FFA254C1299566C600622D01 /* Main.storyboard */,
 				FFA254C4299566C900622D01 /* Assets.xcassets */,
 				FFA254C6299566C900622D01 /* LaunchScreen.storyboard */,
 				FFA254C9299566C900622D01 /* Info.plist */,
 			);
 			path = "Cats Everywhere";
-			sourceTree = "<group>";
-		};
-		FFA254D1299566CA00622D01 /* Cats EverywhereTests */ = {
-			isa = PBXGroup;
-			children = (
-				FFA254D2299566CA00622D01 /* Cats_EverywhereTests.swift */,
-			);
-			path = "Cats EverywhereTests";
 			sourceTree = "<group>";
 		};
 		FFA254DB299566CA00622D01 /* Cats EverywhereUITests */ = {
@@ -127,9 +167,79 @@
 			path = "Cats EverywhereUITests";
 			sourceTree = "<group>";
 		};
+		FFA254F3299567F800622D01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFA254F729956DFF00622D01 /* SearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFA254F4299567FE00622D01 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FFA254F529956CFF00622D01 /* SearchService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FFA254F9299571AF00622D01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FFA254FA299571C700622D01 /* RenderViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FFA254FC299571EA00622D01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FFA254FD299571FF00622D01 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FFA254FF2995728400622D01 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FFA255002995729600622D01 /* Main */,
+				FF19F2032996DF4000FC6A5C /* Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FFA255002995729600622D01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25501299572A600622D01 /* MainView.swift */,
+				FFA25503299572B100622D01 /* MainViewModel.swift */,
+				FFA25505299572BC00622D01 /* MainViewController.swift */,
+				FFA255072995764B00622D01 /* MainImageCollectionViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FFA015BE29997FC3004194A7 /* Cats EverywhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA015C529997FC3004194A7 /* Build configuration list for PBXNativeTarget "Cats EverywhereTests" */;
+			buildPhases = (
+				FFA015BB29997FC3004194A7 /* Sources */,
+				FFA015BC29997FC3004194A7 /* Frameworks */,
+				FFA015BD29997FC3004194A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA015C429997FC3004194A7 /* PBXTargetDependency */,
+			);
+			name = "Cats EverywhereTests";
+			productName = "Cats EverywhereTests";
+			productReference = FFA015BF29997FC3004194A7 /* Cats EverywhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FFA254B7299566C600622D01 /* Cats Everywhere */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA254E2299566CA00622D01 /* Build configuration list for PBXNativeTarget "Cats Everywhere" */;
@@ -143,27 +253,14 @@
 			dependencies = (
 			);
 			name = "Cats Everywhere";
+			packageProductDependencies = (
+				FFA254EE2995679100622D01 /* SnapKit */,
+				FFA254F1299567C500622D01 /* Kingfisher */,
+				FF39CBC62995874800755820 /* Alamofire */,
+			);
 			productName = "Cats Everywhere";
 			productReference = FFA254B8299566C600622D01 /* Cats Everywhere.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FFA254CD299566CA00622D01 /* Cats EverywhereTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFA254E5299566CA00622D01 /* Build configuration list for PBXNativeTarget "Cats EverywhereTests" */;
-			buildPhases = (
-				FFA254CA299566CA00622D01 /* Sources */,
-				FFA254CB299566CA00622D01 /* Frameworks */,
-				FFA254CC299566CA00622D01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFA254D0299566CA00622D01 /* PBXTargetDependency */,
-			);
-			name = "Cats EverywhereTests";
-			productName = "Cats EverywhereTests";
-			productReference = FFA254CE299566CA00622D01 /* Cats EverywhereTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FFA254D7299566CA00622D01 /* Cats EverywhereUITests */ = {
 			isa = PBXNativeTarget;
@@ -190,15 +287,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					FFA015BE29997FC3004194A7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FFA254B7299566C600622D01;
+					};
 					FFA254B7299566C600622D01 = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					FFA254CD299566CA00622D01 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = FFA254B7299566C600622D01;
 					};
 					FFA254D7299566CA00622D01 = {
 						CreatedOnToolsVersion = 13.1;
@@ -215,32 +312,36 @@
 				Base,
 			);
 			mainGroup = FFA254AF299566C500622D01;
+			packageReferences = (
+				FFA254ED2995679100622D01 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FFA254F0299567C500622D01 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FF39CBC52995874800755820 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FFA254B9299566C600622D01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FFA254B7299566C600622D01 /* Cats Everywhere */,
-				FFA254CD299566CA00622D01 /* Cats EverywhereTests */,
+				FFA015BE29997FC3004194A7 /* Cats EverywhereTests */,
 				FFA254D7299566CA00622D01 /* Cats EverywhereUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FFA015BD29997FC3004194A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFA254B6299566C600622D01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FFA254C8299566C900622D01 /* LaunchScreen.storyboard in Resources */,
 				FFA254C5299566C900622D01 /* Assets.xcassets in Resources */,
-				FFA254C3299566C600622D01 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFA254CC299566CA00622D01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,21 +355,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FFA015BB29997FC3004194A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA015C229997FC3004194A7 /* Cats_EverywhereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFA254B4299566C600622D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA254C0299566C600622D01 /* ViewController.swift in Sources */,
+				FFA254EC2995671C00622D01 /* AppCoordinator.swift in Sources */,
+				FFA255082995764B00622D01 /* MainImageCollectionViewCell.swift in Sources */,
+				FFA25506299572BC00622D01 /* MainViewController.swift in Sources */,
+				FFA25502299572A600622D01 /* MainView.swift in Sources */,
+				FFA254FB299571C700622D01 /* RenderViewProtocol.swift in Sources */,
+				FFA254F829956DFF00622D01 /* SearchResponse.swift in Sources */,
+				FFA25504299572B100622D01 /* MainViewModel.swift in Sources */,
+				FF19F2072996DF5C00FC6A5C /* DetailView.swift in Sources */,
+				FF19F2052996DF5200FC6A5C /* DetailViewModel.swift in Sources */,
+				FFA254FE299571FF00622D01 /* UIViewController+Extensions.swift in Sources */,
+				FFA254F629956CFF00622D01 /* SearchService.swift in Sources */,
 				FFA254BC299566C600622D01 /* AppDelegate.swift in Sources */,
 				FFA254BE299566C600622D01 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFA254CA299566CA00622D01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFA254D3299566CA00622D01 /* Cats_EverywhereTests.swift in Sources */,
+				FF19F2092996DF6900FC6A5C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +396,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FFA254D0299566CA00622D01 /* PBXTargetDependency */ = {
+		FFA015C429997FC3004194A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FFA254B7299566C600622D01 /* Cats Everywhere */;
-			targetProxy = FFA254CF299566CA00622D01 /* PBXContainerItemProxy */;
+			targetProxy = FFA015C329997FC3004194A7 /* PBXContainerItemProxy */;
 		};
 		FFA254DA299566CA00622D01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -297,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FFA254C1299566C600622D01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFA254C2299566C600622D01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FFA254C6299566C900622D01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -316,6 +420,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FFA015C629997FC3004194A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UT4W7MMEML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Cats-EverywhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cats Everywhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cats Everywhere";
+			};
+			name = Debug;
+		};
+		FFA015C729997FC3004194A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UT4W7MMEML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Cats-EverywhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cats Everywhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cats Everywhere";
+			};
+			name = Release;
+		};
 		FFA254E0299566CA00622D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -414,6 +558,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -422,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,10 +588,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cats Everywhere/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,13 +614,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UT4W7MMEML;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cats Everywhere/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,56 +633,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FFA254E6299566CA00622D01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UT4W7MMEML;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Cats-EverywhereTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cats Everywhere.app/Cats Everywhere";
-			};
-			name = Debug;
-		};
-		FFA254E7299566CA00622D01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UT4W7MMEML;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Cats-EverywhereTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cats Everywhere.app/Cats Everywhere";
 			};
 			name = Release;
 		};
@@ -587,6 +685,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FFA015C529997FC3004194A7 /* Build configuration list for PBXNativeTarget "Cats EverywhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA015C629997FC3004194A7 /* Debug */,
+				FFA015C729997FC3004194A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FFA254B3299566C500622D01 /* Build configuration list for PBXProject "Cats Everywhere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -605,15 +712,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFA254E5299566CA00622D01 /* Build configuration list for PBXNativeTarget "Cats EverywhereTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFA254E6299566CA00622D01 /* Debug */,
-				FFA254E7299566CA00622D01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FFA254E8299566CA00622D01 /* Build configuration list for PBXNativeTarget "Cats EverywhereUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -624,6 +722,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF39CBC52995874800755820 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FFA254ED2995679100622D01 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FFA254F0299567C500622D01 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF39CBC62995874800755820 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF39CBC52995874800755820 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FFA254EE2995679100622D01 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFA254ED2995679100622D01 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FFA254F1299567C500622D01 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFA254F0299567C500622D01 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FFA254B0299566C500622D01 /* Project object */;
 }
